@@ -7,6 +7,7 @@ class CI_Library {
         foreach($CI AS $Key=>$Val){
             $this->{$Key} = $Val;
         }
+		log_message('info', 'Library Class Initialized');
     }
 }
 ?>
